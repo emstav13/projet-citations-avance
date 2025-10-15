@@ -1,5 +1,8 @@
 name: CI/CD Node.js - Générateur de citations avancé
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
@@ -39,4 +42,4 @@ jobs:
         with:
           github_token: ${{ secrets.PAT_GITHUB }}
           publish_branch: gh-pages
-          publish_dir: ./public
+          publish_dir: ./src
