@@ -1,21 +1,17 @@
 {
   "name": "projet-citations-avance",
   "version": "1.0.0",
-  "description": "Projet avancé Générateur de citations",
+  "description": "Générateur de citations avancé avec API ZenQuotes.io",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
     "test": "jest"
   },
-  "author": "Manos",
-  "license": "MIT",
-  "directories": {
-    "test": "tests"
-  },
-  "keywords": [],
   "dependencies": {
-    "express": "^5.1.0",
-    "jest": "^30.2.0",
-    "node-fetch": "^2.7.0"
-  }
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "type": "commonjs"
 }
